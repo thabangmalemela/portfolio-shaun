@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Shaun Malemela | Software Developer</title>
+  <meta name="description" content="Shaun Malemela is a full-stack software developer in Gauteng, South Africa, building web and mobile applications with PHP, MySQL, React, Node.js and Flutter." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- NAVIGATION -->
+  <header class="nav">
+    <div class="container nav-inner">
+      <a href="#home" class="logo">Shaun<span>.</span>Malemela</a>
+      <nav id="menu" class="menu" aria-label="Main navigation">
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="#projects">Projects</a>
+        <a href="#availability">Availability</a>
+        <a href="#rates">Rates</a>
+        <a href="#contact" class="btn btn-small">Contact</a>
+      </nav>
+      <div class="nav-actions">
+        <button id="themeToggle" class="icon-btn" aria-label="Toggle dark and light theme">🌙</button>
+        <button id="menuToggle" class="icon-btn menu-toggle" aria-label="Open menu" aria-expanded="false">☰</button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- HOME -->
+    <section id="home" class="hero">
+      <div class="container hero-inner">
+        <div class="hero-text reveal">
+          <p class="eyebrow">Hi, I'm Shaun 👋</p>
+          <h1>I build reliable <span class="gradient-text">web &amp; mobile applications</span> for small businesses.</h1>
+          <p class="lead">
+            Full-stack software developer based in Gauteng, South Africa. I turn ideas into
+            working products: public websites, admin dashboards, customer portals and mobile apps.
+          </p>
+          <div class="hero-cta">
+            <a href="#contact" class="btn">Hire me</a>
+            <a href="#projects" class="btn btn-outline">View my work</a>
+          </div>
+          <ul class="hero-meta">
+            <li><strong>Who I help:</strong> small businesses, startups and organisations that need a custom website or system</li>
+          </ul>
+        </div>
+        <div class="hero-card reveal">
+          <img src="images/IMG-20251006-WA0064(1).jpg" alt="Portrait of Shaun Malemela" class="profile-photo" />
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about" class="section">
+      <div class="container">
+        <div class="section-head reveal">
+          <p class="eyebrow">Who</p>
+          <h2>About me</h2>
+        </div>
+        <div class="about-grid">
+          <div class="about-text reveal">
+            <p>
+              I'm <strong>Malemela Shaun Thabang</strong>, an IT graduate and software developer.
+              I hold a <strong>National Diploma in Information Technology</strong>
+              (Specialisation: Intelligent Industrial Systems) from
+              <strong>Tshwane University of Technology</strong>.
+            </p>
+            <p>
+              I have hands-on experience designing, developing, testing and deploying software.
+              I've built and launched a production web application for a client, worked in a
+              development team during a software engineering internship, and delivered an
+              embedded-systems final-year project with a live web dashboard.
+            </p>
+            <p>
+              I enjoy solving real-world problems, learning new technologies quickly, and writing
+              clean, maintainable code.
+            </p>
+            <div class="facts">
+              <div><span>Full name</span><strong>Malemela Shaun Thabang</strong></div>
+              <div><span>Field of study</span><strong>Information Technology</strong></div>
+              <div><span>Institution</span><strong>Tshwane University of Technology</strong></div>
+              <div><span>Experience</span><strong>Freelance &amp; internship projects</strong></div>
+            </div>
+          </div>
+
+          <div class="skills reveal">
+            <h3>Key skills</h3>
+            <div class="skill-group">
+              <h4>Languages</h4>
+              <div class="tags"><span>PHP</span><span>JavaScript</span><span>C#</span><span>Python</span><span>Dart</span><span>C / C++</span></div>
+            </div>
+            <div class="skill-group">
+              <h4>Web &amp; frameworks</h4>
+              <div class="tags"><span>HTML5</span><span>CSS3</span><span>React</span><span>Node.js</span><span>.NET Core</span><span>Flutter</span><span>jQuery</span></div>
+            </div>
+            <div class="skill-group">
+              <h4>Data &amp; backend</h4>
+              <div class="tags"><span>MySQL</span><span>Firebase</span><span>REST APIs</span><span>Authentication &amp; RBAC</span></div>
+            </div>
+            <div class="skill-group">
+              <h4>Tools &amp; practices</h4>
+              <div class="tags"><span>Git &amp; GitHub</span><span>Agile / Scrum</span><span>Testing &amp; Debugging</span><span>SDLC</span><span>Documentation</span></div>
+            </div>
+            <div class="skill-group">
+              <h4>Embedded &amp; IoT</h4>
+              <div class="tags"><span>ESP32</span><span>Arduino IDE</span><span>Sensor integration</span></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SERVICES -->
+    <section id="services" class="section alt">
+      <div class="container">
+        <div class="section-head reveal">
+          <p class="eyebrow">What</p>
+          <h2>Services I offer</h2>
+          <p class="sub">Work I can confidently deliver at my current level.</p>
+        </div>
+        <div class="cards">
+          <article class="card reveal">
+            <div class="card-icon">🌐</div>
+            <h3>Website Development</h3>
+            <p>Responsive, fast and professional websites for businesses and organisations, built with HTML, CSS, JavaScript and PHP.</p>
+          </article>
+          <article class="card reveal">
+            <div class="card-icon">⚙️</div>
+            <h3>Full-Stack Web Applications</h3>
+            <p>Custom systems with admin dashboards, customer portals, login and role-based access, powered by PHP, MySQL, React or Node.js.</p>
+          </article>
+          <article class="card reveal">
+            <div class="card-icon">📱</div>
+            <h3>Mobile &amp; Cross-Platform Apps</h3>
+            <p>Mobile and web apps built with Flutter and Firebase, including authentication and real-time data.</p>
+          </article>
+          <article class="card reveal">
+            <div class="card-icon">🗄️</div>
+            <h3>Database Design &amp; APIs</h3>
+            <p>Relational database design in MySQL and clean REST API development to connect your systems.</p>
+          </article>
+          <article class="card reveal">
+            <div class="card-icon">🔧</div>
+            <h3>Maintenance &amp; Support</h3>
+            <p>Bug fixing, updates, deployment and ongoing support for live websites and applications.</p>
+          </article>
+          <article class="card reveal">
+            <div class="card-icon">📡</div>
+            <h3>IoT &amp; Embedded Prototypes</h3>
+            <p>ESP32-based monitoring prototypes with a live web dashboard for sensor readings and automated control.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section id="projects" class="section">
+      <div class="container">
+        <div class="section-head reveal">
+          <p class="eyebrow">Proof of work</p>
+          <h2>Selected projects</h2>
+        </div>
+        <div class="projects">
+          <article class="project reveal">
+            <div class="project-top">
+              <span class="badge">Freelance · 2025 – 2026</span>
+              <h3>Braai &amp; Beyond</h3>
+              <p class="project-sub">Livestock &amp; meat subscription platform</p>
+            </div>
+            <p>
+              A production web application for a meat subscription business, made up of a public
+              website, an administrative dashboard and a customer portal. It includes authentication,
+              role-based access control, subscription management, payment approvals and scheduling.
+              I also deployed and maintain it in a live hosting environment.
+            </p>
+            <div class="tags"><span>PHP</span><span>MySQL</span><span>JavaScript</span><span>RBAC</span></div>
+            <a class="link" href="https://braaiandbeyond.co.za" target="_blank" rel="noopener">Visit live site →</a>
+          </article>
+
+          <article class="project reveal">
+            <div class="project-top">
+              <span class="badge">Internship · 2023 – 2024</span>
+              <h3>School Management System</h3>
+              <p class="project-sub">Mbula Research &amp; Development</p>
+            </div>
+            <p>
+              Worked in a team to build an internal School Management System, contributing to
+              application features, database integration and authentication. I also took part in
+              Agile development, functional and UAT testing, debugging and technical documentation.
+            </p>
+            <div class="tags"><span>Flutter</span><span>Firebase</span><span>Agile</span><span>Testing</span></div>
+          </article>
+
+          <article class="project reveal">
+            <div class="project-top">
+              <span class="badge">Final-year project · 2024</span>
+              <h3>Fire &amp; Gas Detection System</h3>
+              <p class="project-sub">Tshwane University of Technology</p>
+            </div>
+            <p>
+              An ESP32-based fire and gas detection system using temperature, flame and gas sensors,
+              with an automated fan response. A real-time monitoring dashboard built with Flutter and
+              Firebase displays live sensor readings and system status.
+            </p>
+            <div class="tags"><span>ESP32</span><span>C</span><span>Flutter</span><span>Firebase</span></div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- AVAILABILITY + LOCATION -->
+    <section id="availability" class="section alt">
+      <div class="container">
+        <div class="section-head reveal">
+          <p class="eyebrow">When &amp; Where</p>
+          <h2>Availability &amp; work location</h2>
+        </div>
+        <div class="two-col">
+          <div class="panel reveal">
+            <h3>🕒 Availability</h3>
+            <ul class="checks">
+              <li><strong>Start date:</strong> Immediately</li>
+              <li><strong>Weekdays:</strong> Monday – Friday, 17:00 – 21:00</li>
+              <li><strong>Weekends:</strong> Saturday &amp; Sunday, flexible hours</li>
+              <li><strong>Holidays &amp; term breaks:</strong> Available for larger projects</li>
+              <li><strong>Response time:</strong> Within 24 hours</li>
+            </ul>
+          </div>
+          <div class="panel reveal">
+            <h3>📍 Work location</h3>
+            <ul class="checks">
+              <li><strong>Remote:</strong> Fully available, anywhere in South Africa</li>
+              <li><strong>Hybrid / on-site:</strong> Pretoria, Midrand and Johannesburg</li>
+              <li><strong>Based in:</strong> Gauteng, South Africa</li>
+              <li><strong>Communication:</strong> Email, WhatsApp, video calls</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- WHY HIRE ME -->
+    <section id="why" class="section">
+      <div class="container">
+        <div class="section-head reveal">
+          <p class="eyebrow">Why</p>
+          <h2>Why hire me?</h2>
+        </div>
+        <div class="cards three">
+          <article class="card reveal">
+            <h3>Strong work ethic</h3>
+            <p>I take ownership of my work and I'm committed to delivering quality software that actually solves the problem.</p>
+          </article>
+          <article class="card reveal">
+            <h3>Reliable and consistent</h3>
+            <p>I meet deadlines, give regular progress updates and document my work. My live client project is proof I can ship and maintain real software.</p>
+          </article>
+          <article class="card reveal">
+            <h3>Easy to work with</h3>
+            <p>Clear communicator, collaborative team player, open to feedback and quick to learn new tools and technologies.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- RATES -->
+    <section id="rates" class="section alt">
+      <div class="container">
+        <div class="section-head reveal">
+          <p class="eyebrow">How much</p>
+          <h2>Rates</h2>
+          <p class="sub">Fair, transparent pricing for a junior developer. All rates are negotiable depending on project scope.</p>
+        </div>
+        <div class="cards three">
+          <article class="card price reveal">
+            <h3>Hourly</h3>
+            <p class="amount">R200<span> / hour</span></p>
+            <p>Best for small fixes, support and short tasks.</p>
+          </article>
+          <article class="card price featured reveal">
+            <h3>Daily</h3>
+            <p class="amount">R1,400<span> / day</span></p>
+            <p>Best for focused development work over several days.</p>
+          </article>
+          <article class="card price reveal">
+            <h3>Per project</h3>
+            <p class="amount">Custom<span> quote</span></p>
+            <p>Websites and systems quoted after a free consultation, from R3,500.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="section">
+      <div class="container">
+        <div class="section-head reveal">
+          <p class="eyebrow">Let's talk</p>
+          <h2>Contact me</h2>
+          <p class="sub">Have a project in mind? Send me a message and I'll get back to you within 24 hours.</p>
+        </div>
+        <div class="contact-grid">
+          <div class="contact-info reveal">
+            <a class="contact-item" href="mailto:shaunmalemela@gmail.com">
+              <span>✉️</span>
+              <div><small>Email</small><strong>shaunmalemela@gmail.com</strong></div>
+            </a>
+            <a class="contact-item" href="tel:+27792261869">
+              <span>📞</span>
+              <div><small>Mobile</small><strong>+27 79 226 1869</strong></div>
+            </a>
+            <a class="contact-item" href="https://linkedin.com/in/shaun-malemela/" target="_blank" rel="noopener">
+              <span>💼</span>
+              <div><small>LinkedIn</small><strong>linkedin.com/in/shaun-malemela</strong></div>
+            </a>
+          </div>
+
+          <form id="contactForm" class="form reveal" novalidate>
+            <label>Your name
+              <input type="text" id="name" name="name" placeholder="Jane Doe" required />
+            </label>
+            <label>Your email
+              <input type="email" id="email" name="email" placeholder="jane@example.com" required />
+            </label>
+            <label>Message
+              <textarea id="message" name="message" rows="5" placeholder="Tell me about your project..." required></textarea>
+            </label>
+            <button type="submit" class="btn">Send message</button>
+            <p id="formStatus" class="form-status" role="status"></p>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-inner">
+      <p>© <span id="year"></span> Malemela Shaun Thabang. All rights reserved.</p>
+      <a href="#home">Back to top ↑</a>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
